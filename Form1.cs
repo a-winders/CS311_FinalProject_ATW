@@ -139,9 +139,10 @@ namespace CS311_FinalProject_ATW
                 lblConvertedUnit.Text = "meters";
             }
 
+            // Error message if supported conversions are not selected
             else
             {
-                MessageBox.Show("Please select valid conversion units.");
+                MessageBox.Show("Please select valid a conversion listed below: \n \n Meters <--> Feet \n Kilometers <--> Miles \n Celsius <--> Fahrenheit \n Kilograms <--> Pounds \n Grams <--> Ounces");
                 return;
             }
 

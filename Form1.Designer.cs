@@ -73,16 +73,17 @@
             // lblEnterUnit
             // 
             this.lblEnterUnit.AutoSize = true;
+            this.lblEnterUnit.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblEnterUnit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblEnterUnit.Location = new System.Drawing.Point(12, 37);
+            this.lblEnterUnit.Location = new System.Drawing.Point(46, 23);
             this.lblEnterUnit.Name = "lblEnterUnit";
-            this.lblEnterUnit.Size = new System.Drawing.Size(192, 21);
+            this.lblEnterUnit.Size = new System.Drawing.Size(194, 23);
             this.lblEnterUnit.TabIndex = 0;
             this.lblEnterUnit.Text = "Enter number of unit(s):";
             // 
             // txtEnterUnit
             // 
-            this.txtEnterUnit.Location = new System.Drawing.Point(210, 39);
+            this.txtEnterUnit.Location = new System.Drawing.Point(259, 23);
             this.txtEnterUnit.Name = "txtEnterUnit";
             this.txtEnterUnit.Size = new System.Drawing.Size(132, 23);
             this.txtEnterUnit.TabIndex = 2;
@@ -91,7 +92,7 @@
             // txtConvertedUnit
             // 
             this.txtConvertedUnit.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.txtConvertedUnit.Location = new System.Drawing.Point(237, 460);
+            this.txtConvertedUnit.Location = new System.Drawing.Point(259, 400);
             this.txtConvertedUnit.Name = "txtConvertedUnit";
             this.txtConvertedUnit.Size = new System.Drawing.Size(190, 29);
             this.txtConvertedUnit.TabIndex = 3;
@@ -102,7 +103,7 @@
             this.grpFromTemperature.Controls.Add(this.rdoFromFahrenheit);
             this.grpFromTemperature.Controls.Add(this.rdoFromCelsius);
             this.grpFromTemperature.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.grpFromTemperature.Location = new System.Drawing.Point(210, 78);
+            this.grpFromTemperature.Location = new System.Drawing.Point(259, 63);
             this.grpFromTemperature.Name = "grpFromTemperature";
             this.grpFromTemperature.Size = new System.Drawing.Size(133, 90);
             this.grpFromTemperature.TabIndex = 4;
@@ -141,7 +142,7 @@
             this.grpFromWeight.Controls.Add(this.rdoFromPounds);
             this.grpFromWeight.Controls.Add(this.rdoFromKilograms);
             this.grpFromWeight.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.grpFromWeight.Location = new System.Drawing.Point(349, 78);
+            this.grpFromWeight.Location = new System.Drawing.Point(398, 63);
             this.grpFromWeight.Name = "grpFromWeight";
             this.grpFromWeight.Size = new System.Drawing.Size(133, 148);
             this.grpFromWeight.TabIndex = 5;
@@ -203,7 +204,7 @@
             this.grpFromDistance.Controls.Add(this.rdoFromMiles);
             this.grpFromDistance.Controls.Add(this.rdoFromKilometers);
             this.grpFromDistance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.grpFromDistance.Location = new System.Drawing.Point(488, 78);
+            this.grpFromDistance.Location = new System.Drawing.Point(537, 63);
             this.grpFromDistance.Name = "grpFromDistance";
             this.grpFromDistance.Size = new System.Drawing.Size(133, 148);
             this.grpFromDistance.TabIndex = 6;
@@ -263,7 +264,7 @@
             this.grpToTemperature.Controls.Add(this.rdoToFahrenheit);
             this.grpToTemperature.Controls.Add(this.rdoToCelsius);
             this.grpToTemperature.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.grpToTemperature.Location = new System.Drawing.Point(210, 273);
+            this.grpToTemperature.Location = new System.Drawing.Point(259, 226);
             this.grpToTemperature.Name = "grpToTemperature";
             this.grpToTemperature.Size = new System.Drawing.Size(133, 90);
             this.grpToTemperature.TabIndex = 7;
@@ -304,7 +305,7 @@
             this.grpToWeight.Controls.Add(this.rdoToPounds);
             this.grpToWeight.Controls.Add(this.rdoToKilograms);
             this.grpToWeight.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.grpToWeight.Location = new System.Drawing.Point(349, 273);
+            this.grpToWeight.Location = new System.Drawing.Point(398, 226);
             this.grpToWeight.Name = "grpToWeight";
             this.grpToWeight.Size = new System.Drawing.Size(133, 148);
             this.grpToWeight.TabIndex = 8;
@@ -366,7 +367,7 @@
             this.grpToDistance.Controls.Add(this.rdoToMiles);
             this.grpToDistance.Controls.Add(this.rdoToKilometers);
             this.grpToDistance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.grpToDistance.Location = new System.Drawing.Point(488, 273);
+            this.grpToDistance.Location = new System.Drawing.Point(537, 226);
             this.grpToDistance.Name = "grpToDistance";
             this.grpToDistance.Size = new System.Drawing.Size(133, 148);
             this.grpToDistance.TabIndex = 9;
@@ -426,22 +427,22 @@
             this.lblTo.AutoSize = true;
             this.lblTo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblTo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTo.Location = new System.Drawing.Point(108, 273);
+            this.lblTo.Location = new System.Drawing.Point(41, 226);
             this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(96, 23);
+            this.lblTo.Size = new System.Drawing.Size(199, 23);
             this.lblTo.TabIndex = 10;
-            this.lblTo.Text = "Convert to:";
+            this.lblTo.Text = "Select unit to convert to:";
             // 
             // lblFrom
             // 
             this.lblFrom.AutoSize = true;
             this.lblFrom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblFrom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblFrom.Location = new System.Drawing.Point(58, 78);
+            this.lblFrom.Location = new System.Drawing.Point(20, 63);
             this.lblFrom.Name = "lblFrom";
-            this.lblFrom.Size = new System.Drawing.Size(146, 23);
+            this.lblFrom.Size = new System.Drawing.Size(220, 23);
             this.lblFrom.TabIndex = 11;
-            this.lblFrom.Text = "Select initial unit:";
+            this.lblFrom.Text = "Select unit to convert from:";
             // 
             // btnConvert
             // 
@@ -450,7 +451,7 @@
             this.btnConvert.FlatAppearance.BorderSize = 3;
             this.btnConvert.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnConvert.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnConvert.Location = new System.Drawing.Point(108, 429);
+            this.btnConvert.Location = new System.Drawing.Point(117, 379);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(123, 77);
             this.btnConvert.TabIndex = 12;
@@ -463,7 +464,7 @@
             this.btnClear.BackColor = System.Drawing.Color.LightGray;
             this.btnClear.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnClear.ForeColor = System.Drawing.Color.Black;
-            this.btnClear.Location = new System.Drawing.Point(126, 512);
+            this.btnClear.Location = new System.Drawing.Point(130, 476);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(86, 36);
             this.btnClear.TabIndex = 13;
@@ -475,7 +476,7 @@
             // 
             this.lblConvertedUnit.AutoSize = true;
             this.lblConvertedUnit.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.lblConvertedUnit.Location = new System.Drawing.Point(433, 469);
+            this.lblConvertedUnit.Location = new System.Drawing.Point(455, 409);
             this.lblConvertedUnit.Name = "lblConvertedUnit";
             this.lblConvertedUnit.Size = new System.Drawing.Size(13, 20);
             this.lblConvertedUnit.TabIndex = 14;
@@ -486,7 +487,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(814, 766);
+            this.ClientSize = new System.Drawing.Size(748, 556);
             this.Controls.Add(this.lblConvertedUnit);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnConvert);
