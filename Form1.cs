@@ -141,7 +141,7 @@ namespace CS311_FinalProject_ATW
 
             else
             {
-                MessageBox.Show("Please make a selection in all fields");
+                MessageBox.Show("Please select valid conversion units.");
                 return;
             }
 

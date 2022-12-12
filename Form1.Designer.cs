@@ -93,7 +93,7 @@
             this.txtConvertedUnit.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.txtConvertedUnit.Location = new System.Drawing.Point(237, 460);
             this.txtConvertedUnit.Name = "txtConvertedUnit";
-            this.txtConvertedUnit.Size = new System.Drawing.Size(132, 29);
+            this.txtConvertedUnit.Size = new System.Drawing.Size(190, 29);
             this.txtConvertedUnit.TabIndex = 3;
             this.txtConvertedUnit.TextChanged += new System.EventHandler(this.txtConvertedUnit_TextChanged);
             // 
@@ -475,7 +475,7 @@
             // 
             this.lblConvertedUnit.AutoSize = true;
             this.lblConvertedUnit.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.lblConvertedUnit.Location = new System.Drawing.Point(375, 469);
+            this.lblConvertedUnit.Location = new System.Drawing.Point(433, 469);
             this.lblConvertedUnit.Name = "lblConvertedUnit";
             this.lblConvertedUnit.Size = new System.Drawing.Size(13, 20);
             this.lblConvertedUnit.TabIndex = 14;
